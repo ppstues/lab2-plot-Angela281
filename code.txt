@@ -1,0 +1,9 @@
+% Replace the strings with the correct numbers
+x = -20:0.5:20; % Replace the strings with the correct numbers
+% Calculate the function
+y = 2*exp(-0.2*x);
+% Plot the function
+plot(x,y,'r.','color','blue','linewidth',2);
+% X label and Y label
+xlabel("Abs")
+ylabel("Ord")
